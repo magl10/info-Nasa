@@ -1,0 +1,40 @@
+
+  mat-card{
+    background-color: #333;
+    opacity:0.8;
+    margin: auto;
+    margin-top: 10%;
+    width: 95%;
+    display: grid;
+    margin-top: 2rem;
+}
+
+.example-card {
+  max-width: 95%;
+  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, .6);
+  
+      
+}
+
+.example-header-image {
+  
+  background-size: cover;
+}
+
+p{
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size:1.1rem;
+  padding: 2% 20% 12%;
+  font-weight: lighter;
+  color: white;
+  line-height: 2;
+  text-align: center;
+}
+mat-card-header{
+    color:white;
+}
+
+mat-card-subtitle{
+    color:white;
+}

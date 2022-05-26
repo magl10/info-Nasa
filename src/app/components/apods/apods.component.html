@@ -1,0 +1,23 @@
+<div infiniteScroll [infiniteScrollDistance]="2"  (scrolled)="onScroll()">
+  <mat-card *ngFor="let APod of apod; let i=index;" class="example-card">
+      <img mat-card-image 
+      [src]="APod.hdurl" 
+      [alt]="APod.copyright">
+      <mat-card-header>
+        <mat-card-title>
+            {{APod.title}}
+        </mat-card-title>
+        <mat-card-subtitle>
+            {{APod.date}}
+          
+        </mat-card-subtitle>
+      </mat-card-header>
+      
+      <mat-card-content>
+        <p>
+          {{APod.explanation}}
+        </p>
+      </mat-card-content>
+      
+    </mat-card>
+</div>

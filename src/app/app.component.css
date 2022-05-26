@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 8px 0;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .spacer {
+    flex: 1;
+  }
+
+  .toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #424242;
+    color: white;
+    font-weight: 600;
+    opacity:0.8;
+    box-shadow: 0 0 0 2px  rgba(0, 0, 0, .6);
+  }
+
+  .toolbar img {
+    margin: 0 16px;
+  }
+
+  .content {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin: 30px auto 12px;
+    padding: 0 16px;
+    max-width: 95%;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .milogo{
+      font-size:x-large;
+      margin-left: 50px;
+      font-weight: lighter;
+  }
+  .pi{
+      font-size: small;
+      font-weight: lighter;
+  }
+  .up{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    visibility: visible;
+    opacity: 0.2;
+    
+  }
+  .up:hover{
+    box-shadow: 2px rgba(0, 0, 0, .3);
+    opacity: 1;
+  }

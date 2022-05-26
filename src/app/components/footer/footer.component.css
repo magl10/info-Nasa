@@ -1,0 +1,17 @@
+ul.icons {
+    
+    list-style: none;
+    padding-left: 0; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+ }
+
+ul.icons li {
+    padding: 0 1em 0 0; 
+ }
+ul.icons li .icon {
+    color: inherit; 
+}
+ul.icons li .icon:before {
+    font-size: 1.25em; 
+}
