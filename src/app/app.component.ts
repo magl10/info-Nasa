@@ -6,14 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent  {
-  private showGoUpButton: boolean;
+  
 
   constructor(){
-    this.showGoUpButton = false;
-  }
-
-  scrollTop() {
-    document.documentElement.scrollTop = 0;
+    
   }
 
   title = 'info-Nasa';
