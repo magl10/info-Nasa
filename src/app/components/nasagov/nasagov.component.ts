@@ -16,17 +16,28 @@ export class NasagovComponent implements OnInit {
   apolo(){
     this.q='APOLLO%11%FLIGHT';
     console.log(this.q);
-
+    this.ejecutaPeticion();
+    console.log(this.q);
+    console.log(this.nasa);
   }
   moon(){
     this.q='MOON';
+    this.ejecutaPeticion();
     console.log(this.q);
+    console.log(this.nasa);
+
   }
   lunarSuface(){
     this.q='LUNAR%SURFACE';
+    this.ejecutaPeticion();
+    console.log(this.q);
+    console.log(this.nasa);
   }
   lunarBases(){
     this.q='LUNAR%BASES';
+    this.ejecutaPeticion();
+    console.log(this.q);
+    console.log(this.nasa);
   }
   ejecutaPeticion(){
     

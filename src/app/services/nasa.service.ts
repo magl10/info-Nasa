@@ -20,7 +20,7 @@ export class NasaService {
   }
 
   getNasa(q:string){
-    this.urlNasa+=q;
-    return this.http.get<nasaModel[]>(`https://images-api.nasa.gov/search/?q=${q}`);
+   // this.urlNasa+=q;
+    return this.http.get<nasaModel[]>(`/search/?q=${q}`);
   }
 }
