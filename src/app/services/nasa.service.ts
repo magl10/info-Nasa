@@ -9,7 +9,7 @@ import { nasaModel } from '../models/NasaModel'
 
 export class NasaService {
   private urlApod:string='https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&count=6';
-  private urlNasa:string='https://images-api.nasa.gov/search/?q=';
+  //private urlNasa:string='https://images-api.nasa.gov/search/?q=';
 
   constructor(private http:HttpClient) {
 
