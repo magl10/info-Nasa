@@ -16,7 +16,12 @@ export class ApodsComponent implements OnInit {
     this.actualPage = 1;
    }
   
-onScroll() {
+   
+  scrollTop() {
+    document.documentElement.scrollTop = 0;
+  }
+
+  onScroll() {
     if (this.actualPage < this.finishPage) {
       this.ejecutaPeticion();
       this.actualPage ++;

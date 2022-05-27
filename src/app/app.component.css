@@ -1,23 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
 
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin: 8px 0;
-  }
-
-  p {
+  .content {
     margin: 0;
+    padding: 0;
+    display: flex;
+    margin: 30px auto 12px;
+    padding: 0 16px;
+    max-width: 95%;
+    flex-direction: column;
+    align-items: center;
+    
   }
-
-  .spacer {
-    flex: 1;
-  }
-
   .toolbar {
     position: absolute;
     top: 0;
@@ -31,42 +25,47 @@
     font-weight: 600;
     opacity:0.8;
     box-shadow: 0 0 0 2px  rgba(0, 0, 0, .6);
-  }
-
-  .toolbar img {
-    margin: 0 16px;
-  }
-
-  .content {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    margin: 30px auto 12px;
-    padding: 0 16px;
-    max-width: 95%;
-    flex-direction: column;
+}
+.spacer {
+    flex: 1;
+}
+.pos{
     align-items: center;
+    margin-right: 20px;
+}
+.btn{
+  text-decoration: none;
+  font-size:large;
+  margin-left: 50px;
+  font-weight: lighter;
+  display:inline-block;    
+  /* text-shadow: 0 1px 0 rgba(255, 255, 255, 1); */
+}
+.btn:hover{
+    font-size:x-large;
+    margin-left: 50px;
+    font-weight: lighter; 
     
-  }
-
-  .milogo{
-      font-size:x-large;
-      margin-left: 50px;
-      font-weight: lighter;
-  }
-  .pi{
-      font-size: small;
-      font-weight: lighter;
-  }
-  .up{
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    visibility: visible;
-    opacity: 0.2;
     
+}
+.btn-w{
+  color: white;
+}
+.p:hover{
+  text-shadow: 0 0 5px #dbdbdb, 0 0 25px #dbdbdb, 0 0 50px #dbdbdb, 0 0 200px #dbdbdb ;
+  
+  color: #dbdbdb;
   }
-  .up:hover{
-    box-shadow: 2px rgba(0, 0, 0, .3);
-    opacity: 1;
-  }
+.milogo{
+    font-size:x-large;
+    margin-left: 50px;
+    font-weight: lighter;
+}
+.pi{
+    font-size: small;
+    font-weight: lighter;
+}
+.main2{
+  position: relative;
+  padding-bottom: 4em;
+}

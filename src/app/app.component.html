@@ -5,20 +5,30 @@
     &#123;NASA<span class="pi">pi</span>&#125;
   </span>
     <div class="spacer"></div>
-  
+    <div class="pos">
+      
+      <a class="btn  btn-w p" href="/home">
+        <span >
+          &#123;Home&#125;
+        </span>
+      </a>
+      <a class="btn  btn-w p" href="/apod">
+        <span >
+          &#123; Astronomy Picture of the Day&#125;
+        </span>
+      </a>
+      
+    </div>
 </div>
 
 
 <div class="content" role="main">
-  
-  <app-apods></app-apods>
-  
-  <app-footer></app-footer>
-  <span (click)="scrollTop()" class="up">
-    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-up-square-fill" viewBox="0 0 16 16">
-      <path d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0z"/>
-    </svg>
-  </span>
+  <div class="main2">
+
+    <router-outlet></router-outlet>
+
+  </div>
+    
+ 
 </div>
 
-<router-outlet></router-outlet>

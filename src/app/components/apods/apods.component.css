@@ -38,3 +38,15 @@ mat-card-header{
 mat-card-subtitle{
     color:white;
 }
+.up{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  visibility: visible;
+  opacity: 0.2;
+  
+}
+.up:hover{
+  box-shadow: 2px rgba(0, 0, 0, .3);
+  opacity: 1;
+}
